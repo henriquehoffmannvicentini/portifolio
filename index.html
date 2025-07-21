@@ -1,45 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-    <title>portifolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css" />  
 </head>
 <body>
-    <header  >
-        <h1>Meu portifolio</h1>
+
+  <header>
     <nav>
-      <a href="index.html">HOME</a>
-      <a href="sobre.html">SOBRE</a>
-      <a href="galeria.html">PROJETOS</a>
-      <a href="contato.html">CONTATO</a>
+      <a href="#sobre">Sobre Mim</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
     </nav>
   </header>
- 
-  <section class="sobre">
-    
-    <div class="texto-sobre">
-      <h2>Sobre mim</h2>
-    <p> Ola meu nome é Henrique Hoffmann Vicentini, tenho 18 anos e sou um jovem programador, estou cursando o curso de tads e sempre em busca de mais conhecimento</p>
-    
-</div>
-    <div class="img-sobre">
-    <img src="images/ai-generated-8684869_1280.jpg" alt="imagem gerada por IA" width="400" height="400">
-</div>
+
+  <section id="sobre">
+    <div>
+      <h1>Olá! Eu sou Henrique Hoffmann Vicentini</h1>
+      <p>estou cursando o segundo semestre de Análise e Desenvolvimento de Sistemas no integrado e quero me tornar um desenvolvedor no futuro. </p>
+      <p>tenho 19 anos e nenhuma experiencia ainda em algum trabalho. espero adquirir conhecimentos e habilidades práticas ao longo do curso.</p>
+      <p> com esse Portfólio, espero mostrar meus projetos que fiz ate agora durante o curso.</p>
+    </div>
+    <img src="WhatsApp Image 2025-07-20 at 23.34.09.jpeg" alt="Minha Foto" />
   </section>
 
-  <section class="projetos">
-    <div class="texto-projeto">
-      <h2>Meus projetos</h2>
-      <p>Aqui é meu primeiro projeto que fiz durante a faculdade, um site para um jogo que eu fiz tambem aonde busquei colocar a tematica dele parecida com a do jogo.</p>
+  <section id="projetos">
+    <h2>Meus Projetos</h2>
+    <div class="projetos-container">
+      <div class="card">
+        <img src="image.png" alt="Projeto 1">
+        <h3>Projeto 1</h3>
+        <p>nesse primerio prjeto estou aprendendo a usar HTML, CSS e JavaScript para criar páginas web. um site para o tabalho da faculdade sobre um jogo que eu criei.</p>
+        <button><a href="https://github.com/henriquehoffmannvicentini/projetoTechAcademy">Projeto no github</a></button>
+      </div>
+      <div class="card">
+        <img src="image copy.png" alt="Projeto 2">
+        <h3>Projeto 2</h3>
+        <p>nesse segundo projeto usei a linguagem php. um site ja para uma cliente que queria um site para mostrar principalmente seus produtos.</p>
+         <button><a href="https://github.com/henriquehoffmannvicentini/saborCaseiro">Projeto no github</a></button>
+      </div>
     </div>
-    <div btn-projeto>
-      <a href="https://henriquehoffmannvicentini.github.io/projetoTechAcademy/">clique aqui veja</a>
-    </div>
+  </section>
 
+  <section id="contato">
+    <h2 style="text-transform: uppercase;"> Entre em contato</h2>
+    <div class="contato-links">
+      <p>Email: rickvicentinirick@gmail.com</p><br>
+      <p>Telefone: (44) 90411-2718</p>
+      </div>
+        <div class="icons">
+            <a href="https://www.instagram.com/henrique__hoffmann" target="_blank"><i class="fab fa-instagram"></i> </a>
+            <a href="https://github.com/henriquehoffmannvicentini" target="_blank"><i class="fab fa-github"></i> </a>
+        </div>
+      
     
   </section>
+
 </body>
 </html>
